@@ -1,0 +1,6 @@
+framework module ALAMuDaoSDK {
+  umbrella header "ALAMuDaoSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
