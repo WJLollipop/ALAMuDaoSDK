@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ALAMuDaoSDK'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of ALAMuDaoSDK.'
+  s.version          = '0.1.1'
+  s.summary          = 'ALAMuDaoSDK 文件'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  SDK 文件.
                        DESC
 
   s.homepage         = 'https://github.com/WJLollipop/ALAMuDaoSDK'
@@ -30,7 +30,9 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'ALAMuDaoSDK/Classes/**/*'
+  # s.source_files = 'ALAMuDaoSDK/Classes/**/*'
+  s.vendored_frameworks = 'ALAMuDaoSDK/Classes/*.{framework}'
+  s.resource = 'ALAMuDaoSDK/Assets/FanbeiCreditSDKResource.bundle'
   
   # s.resource_bundles = {
   #   'ALAMuDaoSDK' => ['ALAMuDaoSDK/Assets/*.png']
