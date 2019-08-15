@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ALAMuDaoSDK'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'ALAMuDaoSDK 文件'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-  SDK 文件.
+  SDK 文件，解决了崩溃问题
                        DESC
 
   s.homepage         = 'https://github.com/WJLollipop/ALAMuDaoSDK'

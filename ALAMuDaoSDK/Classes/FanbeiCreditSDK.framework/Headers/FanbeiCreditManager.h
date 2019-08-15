@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 /*
- 当前SDK版本为1.6.4
+ 当前SDK版本为1.7.0
  */
 NS_ASSUME_NONNULL_BEGIN
 
@@ -43,7 +43,7 @@ typedef NS_ENUM(NSInteger, MuDaoSDKTarget) {
 #pragma mark - 初始化沐道SDK
 /**
  借吧：对外API
- V1.6.4 新增初始化方法
+ V1.7.0 新增初始化方法
 
  @param appId 申请的appId
  @param appKey 申请的appKey
